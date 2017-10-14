@@ -14,7 +14,7 @@ async function get(path) {
   let response, json
   try {
     response = await fetch(`https://cloud.docker.com/${path}`, options)
-    json = await res.json()
+    json = await response.json()
   } catch (e) {
     return e
   }
@@ -23,7 +23,7 @@ async function get(path) {
 
 async function getActions() {
   const actions = await get('/api/audit/v1/action/')
-  return actions
+  return actions.objects
 }
 
 module.exports = {
