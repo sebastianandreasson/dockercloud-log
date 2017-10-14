@@ -1,0 +1,34 @@
+{
+  "name": "dockercloud-log",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "env": "create-next env"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianandreasson/dockercloud-log.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sebastianandreasson/dockercloud-log/issues"
+  },
+  "homepage": "https://github.com/sebastianandreasson/dockercloud-log#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "isomorphic-unfetch": "^2.0.0",
+    "material-ui": "^1.0.0-beta.13",
+    "material-ui-icons": "^1.0.0-beta.15",
+    "next": "^3.2.2",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2"
+  },
+  "devDependencies": {
+    "create-next": "^0.1.4"
+  }
+}
