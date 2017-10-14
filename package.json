@@ -26,7 +26,8 @@
     "material-ui-icons": "^1.0.0-beta.15",
     "next": "^3.2.2",
     "react": "^15.6.2",
-    "react-dom": "^15.6.2"
+    "react-dom": "^15.6.2",
+    "redux": "^3.7.2"
   },
   "devDependencies": {
     "create-next": "^0.1.4"
