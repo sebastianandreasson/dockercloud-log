@@ -9,7 +9,6 @@ export default class Index extends React.Component {
   }
 
   _renderAction(action, i) {
-    console.log(action)
     return (
       <div key={`Action_${i}`}>
         {action.action}

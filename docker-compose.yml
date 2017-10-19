@@ -1,0 +1,9 @@
+version: '3'
+services:
+  dockercloud-log:
+    build: '.'
+    environment:
+      - DOCKERCLOUD_USERNAME=sebastianandreas
+      - DOCKERCLOUD_APIKEY=c0b4f18e-148e-4743-9fed-e77e7c12a96c
+    ports:
+      - 3000:3000
